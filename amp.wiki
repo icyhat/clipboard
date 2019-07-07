@@ -1,0 +1,57 @@
+[]       a pen poiting to screen
+*        char, even <CR> is a char
+..       token
+...      chars of 1 Dimension on screen
+___      blanks of chars of 1 Dimension on screen
+
+target text
+1. create
+O/P
+___  I  ... i*..a  ...  A
+o/p
+2. read
+               K
+              ...
+               k
+H  ...  b..?  h.l  w..e  L
+               j
+              ...
+g + ??                   go to line
+              ...
+Esc                      centering line
+              ...
+m/,                      scroll forward/backward
+              ...
+f + ??
+              ...
+/ + ?? + n/N
+              ...
+v/V
+              ...
+C-a
+              ...
+               J
+
+3. update
+change to end of token    c
+copy remote URL           R
+copy line                 y
+change to end of line     C
+merge line                M
+indent line               </>
+undo                      u
+redo                      r
+theme                     t
+save                      s
+4. delete
+char                      x
+to end of token           d
+to end of line            D
+line                      ;
+
+buffer
+  new buffer  B
+  suspend     z/C-z
+  quit        q/C-c
+  quit text   Q
+  quit_other  F
